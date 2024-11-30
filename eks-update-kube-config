@@ -1,0 +1,6 @@
+root@ip-172-31-13-153:~# aws configure
+AWS Access Key ID [None]: 
+AWS Secret Access Key [None]:
+Default region name [None]: ap-south-1
+Default output format [None]: json
+root@ip-172-31-13-153:~# aws eks --region ap-south-1 update-kubeconfig --name harsha-terraform-cluster
