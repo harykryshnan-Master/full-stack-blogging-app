@@ -1,5 +1,5 @@
 variable "ssh_key_name" {
   description = "The name of the SSH key pair to use for instances"
   type        = string
-  default     = "RANJITH_PG_MUM_KEY"
+  default     = "harykryshnan-london"
 }
